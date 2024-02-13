@@ -13,22 +13,26 @@ function displayImages() {
   for (const image of imagesUrls) {
     const imgDiv = document.createElement("div");
     const img = document.createElement("img");
+    const infoBox = document.createElement("div");
 
     img.src = image;
 
     imgDiv.appendChild(img);
-
+    imgDiv.appendChild(infoBox);
     featuredMovies.appendChild(imgDiv);
 
     imgDiv.classList.add("col", "border", "rounded", "p-0", "me-2", "ms-2");
     img.classList.add("img-fluid", "rounded");
+    infoBox.classList.add("info-box");
 
     imgDiv.addEventListener("mouseover", () => {
       imgDiv.classList.add("border-danger");
+      infoBox.style.display = "block";
     });
 
     imgDiv.addEventListener("mouseout", () => {
       imgDiv.classList.remove("border-danger");
+      infoBox.style.display = "none";
     });
   }
 }

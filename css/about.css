@@ -1,0 +1,51 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(21, 21, 24);
+}
+
+.bg-image {
+  background-image: url(https://media.gq.com/photos/5a1d6681e1d8201b4dae1d83/master/pass/Call%20Me%20By%20Your%20Name%2012.jpg);
+  background-position: center bottom 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.column-middle {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+.location-section {
+  margin-top: 50rem;
+}
+
+.location-container {
+  height: 50vh;
+  align-items: center;
+  width: 100%;
+}
