@@ -1,0 +1,48 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(21, 21, 24);
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.column-middle {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+.all-movies-container {
+  margin-top: 10rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+.all-movies-section img {
+  margin: 0 auto;
+}
+
+.all-movies-container .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+}
+
+.all-movies-container .col img {
+  width: 100%;
+  height: 100%;
+}

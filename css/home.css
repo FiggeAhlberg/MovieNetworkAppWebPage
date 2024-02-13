@@ -1,0 +1,191 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(21, 21, 24);
+}
+
+.bg-image {
+  background-image: linear-gradient(
+      to top,
+      rgb(21, 21, 24),
+      rgba(21, 21, 24, 1) 20%,
+      transparent
+    ),
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.4) 5%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.4) 5%,
+      transparent 100%
+    ),
+    url(https://media.gq-magazine.co.uk/photos/5e2877c4ef785000088173c8/16:9/w_1920,c_limit/20200122-Parasite.jpg);
+  background-position: center bottom 90%;
+  background-repeat: no-repeat;
+  height: 70vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.column-middle {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+.welcome-container {
+  margin-top: 22rem;
+}
+
+.featured-container {
+  margin-top: 30rem;
+  width: 100%;
+  margin-left: auto; /* Center the container horizontally */
+  margin-right: auto;
+}
+.featured-section img {
+  margin: 0 auto;
+}
+
+.featured-container .col {
+  /* Set a fixed width for the image containers */
+  display: flex; /* Use flexbox to center the content horizontally and vertically */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center;
+  width: 5rem;
+}
+
+.featured-container .col img {
+  width: 100%;
+  height: 100%;
+}
+
+.description-container {
+  height: 20rem;
+  align-items: center;
+  background-color: rgb(29, 30, 34);
+}
+
+.logo-img {
+  margin-right: 50px;
+}
+
+.description {
+  font-weight: bold;
+  text-align: left;
+  width: 500px;
+  margin-left: 200px;
+}
+
+.recommended-container {
+  height: 30rem;
+}
+
+.recommended-container img {
+  border-radius: 10px;
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  width: 42rem;
+  height: 25rem;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gradient-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8),
+    transparent
+  ); /* Dark gradient overlay */
+  z-index: 1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.header-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  z-index: 1;
+  background-color: rgb(179, 38, 38, 0.9);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: 2;
+}
+
+.image-content-text {
+  position: absolute;
+  bottom: 20%;
+}
+
+.join-us-section {
+  position: relative;
+}
+
+.join-us-container {
+  background-image: url(https://britishcinematographer.co.uk/wp-content/uploads/2023/03/060_BOI_SG_35603.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  filter: brightness(70%);
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 20%;
+  text-align: center;
+  color: white;
+  width: 700px;
+  text-align: start;
+  margin-left: 7rem;
+}
+
+/* linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgb(4, 8, 12, 0.1),
+      rgb(14, 14, 14),
+      rgb(17, 17, 17)
+    ), */
