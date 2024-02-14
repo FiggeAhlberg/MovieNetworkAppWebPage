@@ -16,6 +16,7 @@ function displayImages() {
     const infoBox = document.createElement("div");
 
     img.src = image;
+    img.alt = "featured-movie-image";
 
     imgDiv.appendChild(img);
     imgDiv.appendChild(infoBox);

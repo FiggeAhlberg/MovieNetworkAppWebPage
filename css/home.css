@@ -24,7 +24,7 @@ body {
       rgba(0, 0, 0, 0.4) 5%,
       transparent 100%
     ),
-    url(https://media.gq-magazine.co.uk/photos/5e2877c4ef785000088173c8/16:9/w_1920,c_limit/20200122-Parasite.jpg);
+    url(../images/parasite-woman.webp);
   background-position: center bottom 90%;
   background-repeat: no-repeat;
   height: 70vh;
@@ -64,7 +64,7 @@ nav {
 .featured-container {
   margin-top: 30rem;
   width: 100%;
-  margin-left: auto; /* Center the container horizontally */
+  margin-left: auto;
   margin-right: auto;
 }
 .featured-section img {
