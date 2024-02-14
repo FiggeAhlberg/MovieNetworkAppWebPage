@@ -5,7 +5,7 @@ class Movie {
   }
 }
 
-const api_key = "936fc4084d3ed69d2ed54442b8abc7b7";
+
 const movies = [];
 const imgUrl = "https://api.themoviedb.org/3/movie/";
 
