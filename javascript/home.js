@@ -1,15 +1,15 @@
 function displayImages() {
   const featuredMovies = document.querySelector("#featured-container");
   const imagesUrls = [
+    
+    "../images/leon-the-professional.webp",
+    "../images/requiem.webp",
+    "../images/perfect_blue.webp",
     "../images/eternal_sunshine.webp",
-    "https://images.justwatch.com/poster/108619261/s592/leon-the-professional",
-    "https://m.media-amazon.com/images/M/MV5BOTdiNzJlOWUtNWMwNS00NmFlLWI0YTEtZmI3YjIzZWUyY2Y3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.webp",
-    "https://m.media-amazon.com/images/M/MV5BMmMzOWNhNTYtYmY0My00OGJiLWIzNDUtZWRhNGY0NWFjNzFmXkEyXkFqcGdeQXVyNjUxMDQ0MTg@._V1_.jpg",
-    "https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_.jpg",
-    "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
-    "https://resizing.flixster.com/A4O8aEoaCjZEfnOEFvH8nUmxTtI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzZjMjAzODE0LWQ3YTItNDg0NC1iMTY5LTIzOGJmZDM0ZTZjOC5qcGc=",
-    "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
-    "https://m.media-amazon.com/images/M/MV5BNjJlYmNkZGItM2NhYy00MjlmLTk5NmQtNjg1NmM2ODU4OTMwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
+    "../images/pulp_fiction.webp",
+    "../images/ems.webp",
+    "../images/parasite_movie_cover.webp",
+    "../images/good_bad_ugly.webp"
   ];
   for (const image of imagesUrls) {
     const imgDiv = document.createElement("div");

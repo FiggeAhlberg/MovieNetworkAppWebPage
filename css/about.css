@@ -10,7 +10,7 @@ body {
   background-position: center bottom 40%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: 60vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -27,6 +27,7 @@ header a {
   color: white;
 }
 
+
 .column-middle {
   width: 100%;
   margin: 0 auto;
@@ -38,6 +39,10 @@ header a {
 nav {
   font-size: 0.6rem;
   font-weight: bold;
+}
+
+.about-us-image-container{
+  height: 100px;
 }
 
 .location-section {
