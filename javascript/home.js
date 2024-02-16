@@ -14,7 +14,7 @@ function displayImages() {
         "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.",
     },
     {
-      imageUrl: "../images/perfect_blue.webp",
+      imageUrl: "./images/perfect_blue.webp",
       title: "Perfect Blue",
       description:
         "A pop singer gives up her career to become an actress, but she slowly goes insane when she starts being stalked by an obsessed fan and what seems to be a ghost of her past.",
