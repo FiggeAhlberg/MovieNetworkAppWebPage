@@ -6,9 +6,10 @@
     <title>The Plot</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
+      rel="stylesheet preload"
     />
     <link rel="stylesheet" href="../css/home.css" />
+    <link rel="preload" href="../images/fantastic_mrfox.webp" as="image" />
     <script defer src="../javascript/home.js"></script>
     <script
       defer
@@ -17,56 +18,54 @@
   </head>
   <body class="">
     <div class="column-middle container-fluid">
-      <div class="bg-image-container container-fluid">
+      <div class="bg-image-container container-fluid p-0">
         <div class="bg-image">
-          <div class="gradient-overlay"></div>
+          <header class="header">
+            <section
+              class="d-flex justify-content-between align-items-center col-12"
+            >
+              <div class="col-auto m-2">
+                <a class="logo d-flex align-items-center" href="">
+                  <img
+                    src="../images/red_dot_logo.webp"
+                    alt="letterboxd_logo"
+                  />
+                  <h1 class="mb-0 fs-3">THE PLOT</h1>
+                </a>
+              </div>
+
+              <nav class="navbar-nav col-auto">
+                <ul id="navbar-list" class="list-inline d-flex me-3 ms-3 mb-0">
+                  <li class="list-inline-item me-3">
+                    <a href="">SIGN IN</a>
+                  </li>
+                  <li class="list-inline-item me-3">
+                    <a href="">CREATE ACCOUNT</a>
+                  </li>
+                  <li class="list-inline-item me-3">
+                    <a href="films.html">FILMS</a>
+                  </li>
+                  <li class="list-inline-item me-3">
+                    <a href="">LISTS</a>
+                  </li>
+                  <li class="list-inline-item me-3">
+                    <a href="../html/about.html">ABOUT US</a>
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="me-2">
+                <label class="text-white" for="searchInput">Search:</label>
+                <input
+                  class="search rounded-pill border-0 opacity-25"
+                  type="search"
+                  id="searchInput"
+                />
+              </div>
+            </section>
+          </header>
         </div>
       </div>
-      <header class="header mb-4 m-2">
-        <section
-          class="d-flex justify-content-between align-items-center col-12"
-        >
-          <div class="col-auto">
-            <a class="logo d-flex align-items-center" href="">
-              <img
-                src="../images/red_dot_logo.jpg"
-                alt="letterboxd_logo"
-                width="20"
-                height="20"
-              />
-              <h1 class="mb-0 fs-3">THE PLOT</h1>
-            </a>
-          </div>
-
-          <nav class="navbar-nav col-auto">
-            <ul class="list-inline d-flex me-3 ms-3 mb-0">
-              <li class="list-inline-item me-3">
-                <a href="">SIGN IN</a>
-              </li>
-              <li class="list-inline-item me-3">
-                <a href="">CREATE ACCOUNT</a>
-              </li>
-              <li class="list-inline-item me-3">
-                <a href="films.html">FILMS</a>
-              </li>
-              <li class="list-inline-item me-3">
-                <a href="">LISTS</a>
-              </li>
-              <li class="list-inline-item me-3">
-                <a href="../html/about.html">ABOUT US</a>
-              </li>
-            </ul>
-          </nav>
-
-          <div>
-            <span><i class="glyphicon glyphicon-search"></i></span>
-            <input
-              class="search rounded-pill border-0 opacity-25"
-              type="search"
-            />
-          </div>
-        </section>
-      </header>
 
       <section class="featured-section">
         <div id="featured-container" class="featured-container row"></div>
@@ -78,7 +77,7 @@
         >
           <div class="logo-img align-start">
             <img
-              src="../images/red_dot_logo.jpg"
+              src="../images/red_dot_logo.webp"
               alt="letterboxd_logo"
               width="100"
               height="100"
@@ -106,19 +105,11 @@
         >
           <div class="image-container position-relative">
             <img
-              src="https://www.asifa-hollywood.org/wp-content/uploads/2016/04/fantastic-mr-fox-asifa-hollywood-1024x555-1024x585.jpg"
+              src="../images/fantastic_mrfox.webp"
               alt="fantastic-mrfox-img"
               class="img-fluid"
             />
             <div class="gradient-overlay">
-              <!-- <div
-                class="header-line text-center position-absolute top-0 start-0 w-100"
-              >
-                <div class="header-line-text text-white m-1 h6">
-                  Subscribe To Watch
-                </div>
-              </div> -->
-
               <div class="image-content-text text-white ms-3">
                 <div class="h3">Fantastic Mr.Fox</div>
                 <div class="text-white-50">
@@ -141,85 +132,11 @@
         </div>
       </section>
 
-      <div class="mt-5 p-2 bg-dark text-white-50 text-center align-start">
-        <p>Copyright 2024, The Plot, All Rights Reserved</p>
-      </div>
-
-      <!-- <section class="welcome-section d-flex justify-content-center mt-5">
-        <div class="welcome-container text-center">
-          <h2 class="text-white">
-            Track films you’ve watched.
-            <br />
-            Save those you want to see.
-            <br />
-            Tell your friends what’s good.
-          </h2>
-          <a href="#" class="btn btn-danger btn-sm">GET STARTED - IT'S FREE</a>
-          <p>The social network for film lovers. Also available on</p>
+      <section class="footer-section">
+        <div class="mt-5 p-2 bg-dark text-white-50 text-center align-start">
+          <p>Copyright 2024, The Plot, All Rights Reserved</p>
         </div>
-      </section> -->
-
-      <!-- <section class="function_section">
-        <h4>LETTERBOXD LETS YOU…</h4>
-        <div>
-          <ul>
-            <li>
-              <a href="">
-                <span></span>
-                <p>
-                  Keep track of every film you’ve ever watched (or just start
-                  from the day you join)
-                </p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <span></span>
-                <p>
-                  Keep track of every film you’ve ever watched (or just start
-                  from the day you join)
-                </p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <span></span>
-                <p>
-                  Keep track of every film you’ve ever watched (or just start
-                  from the day you join)
-                </p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <span></span>
-                <p>
-                  Keep track of every film you’ve ever watched (or just start
-                  from the day you join)
-                </p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <span></span>
-                <p>
-                  Keep track of every film you’ve ever watched (or just start
-                  from the day you join)
-                </p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <span></span>
-                <p>
-                  Keep track of every film you’ve ever watched (or just start
-                  from the day you join)
-                </p>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section> -->
+      </section>
     </div>
   </body>
 </html>

@@ -23,8 +23,16 @@ nav {
   font-weight: bold;
 }
 
+.navbar-nav a {
+  color: rgb(226, 201, 201);
+}
+
+.navbar-nav a:hover {
+  color: rgb(185, 41, 41);
+}
 .all-movies-container {
-  margin-top: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -45,4 +53,19 @@ nav {
 .all-movies-container .col img {
   width: 100%;
   height: 100%;
+}
+
+.modal-body img {
+  width: 7rem;
+  height: 10rem;
+}
+
+.movie-list-section {
+  min-height: 15rem;
+  width: 100%; /* Set the width */
+}
+
+.footer-section {
+  width: 100%; /* Set the width */
+  min-height: 50px; /* Set the minimum height */
 }

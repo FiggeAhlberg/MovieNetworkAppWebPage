@@ -14,16 +14,14 @@
   <body class="">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <div class="column-middle container-fluid">
-      
-      <header class="header mb-4 m-2">
+      <header class="header bg-dark">
         <section
           class="d-flex justify-content-between align-items-center col-12"
         >
-        
-          <div class="col-auto">
+          <div class="col-auto m-2">
             <a class="logo d-flex align-items-center" href="../html/home.html">
               <img
-                src="../images/red_dot_logo.jpg"
+                src="../images/red_dot_logo.webp"
                 alt="letterboxd_logo"
                 width="20"
                 height="20"
@@ -35,46 +33,87 @@
           <nav class="navbar-nav col-auto">
             <ul class="list-inline d-flex me-3 ms-3 mb-0">
               <li class="list-inline-item me-3">
-                <a href="">SIGN IN</a>
+                <a href="#">SIGN IN</a>
               </li>
               <li class="list-inline-item me-3">
-                <a href="">CREATE ACCOUNT</a>
+                <a href="#">CREATE ACCOUNT</a>
               </li>
               <li class="list-inline-item me-3">
-                <a href="">FILMS</a>
+                <a href="films.html">FILMS</a>
               </li>
               <li class="list-inline-item me-3">
-                <a href="">LISTS</a>
+                <a href="#">LISTS</a>
               </li>
               <li class="list-inline-item me-3">
-                <a href="">ABOUT US</a>
+                <a href="#">ABOUT US</a>
               </li>
             </ul>
           </nav>
 
-          <div>
-            <span><i class="glyphicon glyphicon-search"></i></span>
+          <div class="me-2">
+            <label class="text-white" for="searchInput">Search:</label>
             <input
-              class="search rounded-pill border-0 opacity-25"
+              class="search rounded-pill border-0 opacity-75"
               type="search"
+              id="searchInput"
             />
           </div>
-
         </section>
       </header>
 
-      <div class="about-us-img-container">
-        <img src="https://media.gq.com/photos/5a1d6681e1d8201b4dae1d83/master/pass/Call%20Me%20By%20Your%20Name%2012.jpg" alt="" class="img-fluid">
-      </div>
+      <section
+        class="about-us-img-section d-flex justify-content-center align-items-center"
+      >
+        <div class="about-us-img-container w-100 col m-0 p-0"></div>
+        <div class="text-overlay text-white align-start">
+          WE ARE A FILM COMMUNITY
+        </div>
+      </section>
+
+      <section class="movies-to-watch-section mt-5">
+        <div
+          class="movie-to-watch-container d-flex justify-content-center text-center text-black-50"
+        >
+          <h1>
+            WATCH TODAY
+            <br />
+            ON THE PLOT
+          </h1>
+        </div>
+
+        <div
+          class="recommended-container d-flex justify-content-center align-items-center"
+        >
+          <div class="image-container position-relative">
+            <img
+              src="../images/no_country.webp"
+              alt="no_country_img"
+              class="img-fluid"
+            />
+            <div class="gradient-overlay">
+              <div class="image-content-text text-white ms-3">
+                <div class="h3">No Country for Old Men</div>
+                <div class="text-white-50">
+                  Violence and mayhem ensue after a hunter stumbles upon the
+                  aftermath of a drug deal gone wrong and over two million
+                  dollars in cash near the Rio Grande.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section class="location-section">
-        <div
-          class="location-container m-0 p-0 bg-dark d-flex justify-content-center"
-        >
+        <div class="d-flex justify-content-center text-black-50">
+          <h2>FIND US HERE</h2>
+        </div>
+
+        <div class="location-container m-0 p-0 d-flex justify-content-center">
           <div class="mapouter">
             <div class="gmap_canvas">
               <iframe
-                width="950"
+                width="900"
                 height="400"
                 id="gmap_canvas"
                 src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
@@ -82,25 +121,34 @@
                 scrolling="no"
                 marginheight="0"
                 marginwidth="0"
+                title="map"
               ></iframe
               ><br /><style>
                 .mapouter {
                   position: relative;
                   text-align: right;
                   height: 400px;
-                  width: 950px;
+                  width: 900px;
                 }</style
-              ><a href="https://www.embedgooglemap.net"></a
+              ><a href="https://www.embedgooglemap.net">View Location</a
               ><style>
                 .gmap_canvas {
                   overflow: hidden;
                   background: none !important;
                   height: 400px;
-                  width: 950px;
+                  width: 900px;
                 }
               </style>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="footer-section">
+        <div
+          class="footer-container mt-5 p-2 bg-dark text-white-50 text-center align-start"
+        >
+          <p>Copyright 2024, The Plot, All Rights Reserved</p>
         </div>
       </section>
     </div>

@@ -2,31 +2,13 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: rgb(21, 21, 24);
-}
-
-.bg-image {
-  background-image: url(https://media.gq.com/photos/5a1d6681e1d8201b4dae1d83/master/pass/Call%20Me%20By%20Your%20Name%2012.jpg);
-  background-position: center bottom 40%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 60vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: -1;
+  /* background-color: rgb(21, 21, 24); */
 }
 
 header a {
   text-decoration: none;
   color: white;
 }
-
 
 .column-middle {
   width: 100%;
@@ -41,16 +23,101 @@ nav {
   font-weight: bold;
 }
 
-.about-us-image-container{
-  height: 100px;
+.navbar-nav a {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-nav a:hover {
+  color: rgb(185, 41, 41);
+}
+.about-us-img-section {
+  position: relative;
+}
+
+.about-us-img-container {
+  background-image: url("../images/grand_budapest.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  filter: brightness(80%);
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 700px;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.recommended-container {
+  height: 30rem;
+}
+
+.recommended-container img {
+  border-radius: 10px;
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  width: 42rem;
+  height: 25rem;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-content-text {
+  position: absolute;
+  bottom: 20%;
+}
+
+.gradient-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8),
+    transparent
+  ); /* Dark gradient overlay */
+  z-index: 1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .location-section {
-  margin-top: 50rem;
+  margin-top: 10rem;
+}
+
+.location-section h2 {
+  font-weight: 700;
 }
 
 .location-container {
   height: 50vh;
   align-items: center;
   width: 100%;
+}
+
+.movie-to-watch-container h1 {
+  font-weight: 700;
+}
+
+.footer-container {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

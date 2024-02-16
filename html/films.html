@@ -21,7 +21,7 @@
           <div class="col-auto">
             <a class="logo d-flex align-items-center" href="../html/home.html">
               <img
-                src="../images/red_dot_logo.jpg"
+                src="../images/red_dot_logo.webp"
                 alt="letterboxd_logo"
                 width="20"
                 height="20"
@@ -51,17 +51,46 @@
           </nav>
 
           <div>
-            <span><i class="glyphicon glyphicon-search"></i></span>
+            <label for="searchInput">Search:</label>
             <input
-              class="search rounded-pill border-0 opacity-25"
+              class="search rounded-pill border-0 opacity-75"
               type="search"
+              id="searchInput"
             />
           </div>
         </section>
       </header>
 
+      <section
+        class="movie-list-header-section d-flex justify-content-center mt-5"
+      >
+        <div>
+          <h1 class="text-white">Movies</h1>
+        </div>
+      </section>
+
       <section class="all-movies-section">
         <div id="all-movies" class="all-movies-container row"></div>
+      </section>
+
+      <section
+        class="movie-list-header-section d-flex justify-content-center mt-5"
+      >
+        <div>
+          <h2 class="text-white">Watchlist</h2>
+        </div>
+      </section>
+
+      <section
+        class="movie-list-section d-flex justify-content-center align-items-center mt-2 bg-dark"
+      >
+        <div id="movie-list" class="row m-2"></div>
+      </section>
+
+      <section class="footer-section">
+        <div class="mt-5 p-2 bg-dark text-white-50 text-center align-start">
+          <p>Copyright 2024, The Plot, All Rights Reserved</p>
+        </div>
       </section>
     </div>
   </body>
