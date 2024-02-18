@@ -2,7 +2,7 @@ function displayImages() {
   const featuredMovies = document.querySelector("#featured-container");
   const movieData = [
     {
-      imageUrl: "../images/leon-the-professional.webp",
+      imageUrl: "MovieNetworkAppWebPage/images/leon-the-professional.webp",
       title: "Leon the Professional",
       description:
         "12-year-old Mathilda is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade.",
