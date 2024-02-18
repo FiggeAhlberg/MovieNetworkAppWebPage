@@ -2,49 +2,49 @@ function displayImages() {
   const featuredMovies = document.querySelector("#featured-container");
   const movieData = [
     {
-      imageUrl: "./images/fantastic_mrfox.webp",
+      imageUrl: "./images/leon-the-professional.webp",
       title: "Leon the Professional",
       description:
         "12-year-old Mathilda is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade.",
     },
     {
-      imageUrl: "../images/requiem.webp",
+      imageUrl: "./images/requiem.webp",
       title: "Requiem for a Dream",
       description:
         "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.",
     },
     {
-      imageUrl: "../images/perfect_blue.webp",
+      imageUrl: "./images/perfect_blue.webp",
       title: "Perfect Blue",
       description:
         "A pop singer gives up her career to become an actress, but she slowly goes insane when she starts being stalked by an obsessed fan and what seems to be a ghost of her past.",
     },
     {
-      imageUrl: "../images/eternal_sunshine.webp",
+      imageUrl: "./images/eternal_sunshine.webp",
       title: "Eternal Sunshine of the Spotless Mind",
       description:
         "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories for ever.",
     },
     {
-      imageUrl: "../images/pulp_fiction.webp",
+      imageUrl: "./images/pulp_fiction.webp",
       title: "Pulp Fiction",
       description:
         "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
     },
     {
-      imageUrl: "../images/ems.webp",
+      imageUrl: "./images/ems.webp",
       title: "Oldboy",
       description:
         "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.",
     },
     {
-      imageUrl: "../images/parasite_movie_cover.webp",
+      imageUrl: "./images/parasite_movie_cover.webp",
       title: "Parasite",
       description:
         "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
     },
     {
-      imageUrl: "../images/good_bad_ugly.webp",
+      imageUrl: "./images/good_bad_ugly.webp",
       title: "The Good, the Bad and the Ugly",
       description:
         "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
